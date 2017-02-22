@@ -107,7 +107,7 @@ let g:syntastic_check_on_wq = 0
 :nmap <C-p> :lp <CR>
 
 
-" deal chinese,should pass ensure_acsii=False in json.dump function
+" deal zh_cn,should pass ensure_acsii=False in json.dump function
 :command JSON %!python -m json.my-tool
 :command Javac !javac %:p<cr>
 function ShowSpaces(...)
